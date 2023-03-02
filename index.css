@@ -1,0 +1,121 @@
+* {
+margin: 0;
+padding: 0;
+}
+.navbar {
+    border: 1px solid black;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.logoCircle {
+    border: 1px solid black;
+    width: 10%;
+    height: 3.2vh;
+}
+.navigation {
+    border: 1px solid black;
+    width: 30%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 17px;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+.contactBtn {   
+    border: 1px solid black;
+    width: 7.8%;
+    height: 6.5vh;
+    background-color: #072AC8;
+    font-size: 17px;
+    font-family: "Roboto";
+    font-weight:bold;
+    color: white;
+}
+.Empower {
+    border: 1px solid black;
+    position: absolute;
+    width: 1440px;
+    height: 650px;
+    left: calc(50% - 1440px/2);
+    top: 222px; 
+}
+.EmpowerBox {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 530px;
+    height: 422px;
+    left: 170px;
+    top: 109px;
+}
+.EmpowerTittle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #292E47;
+    width: 530px;
+    height: 210px;
+    left: 170px;
+    top: 109px;
+}
+h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+}
+p{
+    width: 435px;
+    height: 90px;
+    left: 170px;
+    top: 349px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #6B708D;
+}
+.getInTouchBtn {
+    width: 150px;
+    height: 52px;
+    left: 170px;
+    top: 479px;
+    background-color: #072AC8 ;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 130%;
+    color: white;
+    text-align: center;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    .SeeOurWork {
+        color: #6B708D;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        margin-left: 180px;
+        padding-bottom: 60px;
+    }
+    .EmpowerImage {
+        border: 1px solid black;
+        width: 700px;
+        height: 650px;
+        left: 700px;
+        top: 0px;
+    }
