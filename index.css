@@ -39,11 +39,13 @@ padding: 0;
 }
 .Empower {
     border: 1px solid black;
+    display: flex;
+    flex-direction: row;
     position: absolute;
     width: 1440px;
     height: 650px;
     left: calc(50% - 1440px/2);
-    top: 222px; 
+    top: 320px; 
 }
 .EmpowerBox {
     position: absolute;
@@ -114,8 +116,54 @@ p{
     }
     .EmpowerImage {
         border: 1px solid black;
+        position: relative;
         width: 700px;
         height: 650px;
         left: 700px;
         top: 0px;
     }
+    .card1{
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        left: -80px;
+        bottom: 315px;
+        z-index: 1;
+        float: left;
+    }
+    .heroimage {
+        position: relative;
+        width: 611.96px;
+        height: 637.34px;
+        left: -22px;
+        top: 0px;
+        justify-content: center;
+        z-index: -1
+    }
+    .card2 {
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        left: 300px;
+        top: 380px;
+        z-index: 1;
+        float: right;
+    }
+.empower-bottom{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    width: 1440px;
+    height: 96px;
+    left: calc(50% - 1440px/2);
+    top: 1002px;
+
+}
+.brand-logo {
+    
+}
+    
