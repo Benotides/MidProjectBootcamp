@@ -15,14 +15,15 @@
 
 <body>
     <!-- alineados en row, el header ha de tener display flex (por default están en row eso si vamos bien) darle características al header. Recomendación. Ponle de caracterísitcas one. position FIX o Position Sticky -->
+    
     <header class="navbar">
         <img src="./images/logos/circle.svg" class="logoCircle">
             
             
         <div class="navigation">
-            <a href="./index.html">Home</a>
-            <a href="./project-page/projectPage.html">Projects</a>
-            <a href="">Services</a>
+            <a style="text-decoration: none;" href="./index.html">Home</a>
+            <a style="text-decoration: none;" href="./project-page/projectPage.html">Projects</a>
+            <a style="text-decoration: none;" href="">Services</a>
             <!-- falta poner el scroll para luego ubicar este boton -->
 
         </div>
@@ -32,26 +33,29 @@
     </header>
     
     <main>
-        <section class="Empower">
-            <div class="EmpowerBox">
-            <div class="EmpowerTittle">
-                <h1>Empower Your Business With Stunning Design!</h1>
-                <p>Circle is a digital design and development studio.We design and develop astonishing websites and mobile apps.</p>
-                <button class="getInTouchBtn">Get in touch</button>
+        <section class="empower">
+            <div class="empowerBox">
+                <div class="empowerTextcontainer">
+                    <div class="empowertexts">
+                
+                    <h1>Empower Your Business With Stunning Design!</h1>
+                    
+                    <p>Circle is a digital design and development studio. We design and develop astonishing websites and mobile apps.</p>
+                    
+                    <button class="getInTouchBtn">Get in touch</button>
+    
+                    <a class="SeeOurWork" href="">See our work</a>   
+                    </div>          
+                </div>
+          
+        
+                 <div class="empowerImage">
+                        <img class=empowerImage-img src="./images/hero-section/hero-image.png">
+                        <img class=empowerCard1 src="./images/hero-section/Card 1good.png" >
+                        <img class=empowerCard2 src="./images/hero-section/Card 2good.png" >
+                        
+                </div>
 
-            </div>
-            <div class="SeeOurWork">
-                <a href="">See our work</a>   
-            </div>
-           </div>
-           
-           
-            </div>
-
-            <div class="EmpowerImage">
-            <img class=card1 src="./images/hero-section/card-1.png" alt="credit.card">
-            <img class=card2 src="./images/hero-section/card-2.png" alt="happy man">
-            <img class=heroimage src="./images/hero-section/hero-image.png" alt="">
             </div>
 
         </section>
@@ -68,10 +72,49 @@
             <div class="brand-logo">
                 <img src="./images/logos/fedex-logo.svg" alt="FedEx">
             </div>
-            <div class="amazon">
+            <div class="brand-logo">
                 <img src="./images/logos/amazon-logo.svg" alt="Amazon">
             </div>
         </section>
+        <section class="recentProjects">
+            <div class="recenProjectsContainer">
+                <h3>Recent projects</h3>
+
+                <div class=recentprojectsIn>
+
+                    <div class="recentBoxes"> 
+                        
+                        <img src="./images/projects-section/1.jpg">
+                        <h5>Simplify</h5>
+                        <p>UI Design & App Development</p>
+                        <a class="learn more" href="">Learn more</a>    
+                        
+                    </div>
+
+                    <div class="recentBoxes">
+                       
+                        <img src="images/projects-section/2.jpg">
+                        <h5>Dashcoin</h5>
+                        <p>Web development</p>
+                        <a class="leanr more" href="">Learn more</a>
+                    </div>
+
+                    <div class="recentBoxes">
+                       
+                        <img src="images/projects-section/3.jpg">
+                        <h5>Vectorify</h5>
+                        <p>User Experience Design</p>
+                        <a class="leanr more" href="">Learn more</a>
+                   </div>
+
+                </div>
+            </div>
+                
+
+
+        </section>
+
+               
 
     </main>
     <footer>
