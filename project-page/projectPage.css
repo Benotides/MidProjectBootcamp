@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: #f2f4fc; */
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #292e47;
+    
+    }
+    h1{
+        font-size: 60px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        line-height: 130%;
+    }
+    h3 {
+        color: #292e47;
+        font-size: 40px;
+        margin: 3rem 0;
+    }
+    h5 {
+        margin: 30px 0 20px 0;
+        font-size: 24px;
+        line-height: 115%;
+        font-weight: 500;
+    }
+    h4 {
+        color: #6B708D bold;
+        font-size: 30px;
+        
+    }
+    p {
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-size: 17px;
+        font-weight: 400;
+        color: #6B708D;
+    }
+    .navbar {
+        border: 1px solid black;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 122px;
+        left: calc(50% - 1440px/2);
+        top: 0px;
+    }
+    .logoCircle {
+        border: 1px solid black;
+        width: 10%;
+        height: auto;
+        padding: 0;
+    }
+    .navigation {
+        border: 1px solid black;
+        width: 30%;
+        height: 5vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 20px;
+        font-family: "Roboto";
+        font-weight: 600;    
+    }
+    .navigation a:hover {
+        font-weight: bolder;
+        color: #072AC8;
+        
+    }
+    .contactBtn {   
+        border: 1px solid black;
+        width: 7.6%;
+        height: 4vh;
+        background-color:#072AC8;
+        font-size: 17px;
+        font-family: "Roboto";
+        font-weight:bold;
+        color: white;
+    }
+    .simplifycontainer {
+        margin-top: 5%;
+        border: 1px solid red;
+        width:100%;
+        display: flex;
+        justify-content: center;
+
+    }
+    .simplifybox {
+        border: 1px solid blue;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+    .simplifybox h5 {
+        margin-left:85%;
+        margin-top: -30px;
+    }
+    .simplifybox img {
+        width: 100%;
+        height: 900px;
+        box-shadow: 20px 20px 20px 20px whitesmoke;
+        margin-top: 3%;
+    }
+    .simplifybox p {
+        margin-top: 3%;
+        font-size: 30px;
+    }
+
+.recentProjects {
+    border: 1px solid black;
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.recenProjectsContainer {
+    border: 3px solid red;
+    display:flex;
+    flex-direction:column;
+    width: 82%;
+    height:auto;  
+}
+.recentprojectsIn {
+    border: 3px solid blue;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width: 100%;
+    height:auto;
+    box-shadow: 20px 20px 20px 20px whitesmoke;
+
+}
+.recentBoxes {
+    border: 3px solid green;
+    width: 30%;
+    height:790px;
+    display: flex;
+    flex-direction: column;
+    color: #292E47;
+    
+}
+.recentBoxes h5 {
+    margin-left: 7%;
+}
+.learnmore{
+    margin-left: 7%;
+    margin-top: 15%;
+    color: #072ac8;
+
+   
+}
+.vectorifyImage{
+    height: 543px;
+    
+
+}
+.margin7 {
+    margin-left: 7%;
+}
+.questionsBox{
+    margin-top: 10%;
+    border: 3px solid red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+
+}
+
+.questions {
+    border: 3px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc600;
+    width: 90%;
+    height: auto;
+}
+.questions h5 {
+    font-size: 80px;
+
+}
+.questions p {
+  font-size: 30px;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.questionstext {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+.formulario {
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.inputbox { 
+    
+    display: flex;
+    justify-content:center;
+    background-color: #ecf7ff;
+    margin-right: 50px;
+    margin-bottom: 15%;
+    border: none;
+    height: 85px;
+}
+.formulario input {
+    
+    border: none;
+    background-color: #ecf7ff;
+    font-size:25px;    
+}
+.button {
+    font-size: 50px;
+    margin-bottom: 15%;
+    color: white;
+    align-self: center; */
+}
+.button1 {
+    background-color: #072AC8;
+    border: none;
+    color: white;
+    width: 120px;
+    height: 85px;
+    font-size: 20px;
+
+} 
+footer {
+    
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 30px;
+    align-items: center;
+
+}
+.footercontainer1 {
+    
+    width: 70%;
+    height: 330px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footercontainer2 img {
+    width: 100px;
+    margin-bottom: 30px;
+    display: flex;
+    margin-top: 90px;
+S}
+.footercontainer2 p {
+    color: #6b708d;
+    }
+
+.footercontainer3 {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.footercontainer3 ul {
+    display: flex;
+    flex-direction: row;
+   
+}
+footer li {
+    font-size: 17px;
+    list-style: none;
+    padding:  4rem;
+
+    color: #6B708D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:7767px) {
+
+}
