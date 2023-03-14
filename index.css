@@ -4,10 +4,6 @@ padding: 0;
 font-family: 'Roboto';
 font-style: normal;
 color: #292e47;
-/* justify-content: center;
-width: 100%; */
-
-
 }
 body {
     background-color: #ecf7ff;
@@ -38,7 +34,7 @@ p {
 }
 
 .navbar {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: space-around;
     align-content: center;
@@ -48,24 +44,27 @@ p {
     height: 122px;
     left: calc(50% - 1440px/2);
     top: 0px;
+  
 
 }
 .logoCircle {
-    border: 1px solid black;
-    width: 5%;
+    /* border: 1px solid black; */
+    /* width: 5%; */
     height: auto;
     padding: 0;
 }
 .navigation {
-    border: 1px solid black;
-    width: 30%;
+    /* border: 1px solid black; */
+    width: 60%;
     height: 5vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap:10%;
     align-items: center;
     font-size: 20px;
     font-family: "Roboto";
     font-weight: 600;
+    
     
 }
 .navigation a:hover {
@@ -76,26 +75,30 @@ p {
 }
 .contactBtn {   
     border: none;
-    width: 7.6%;
+    /* width: 7.6%; */
     height: 5vh;
     background-color: #072AC8;
     font-size: 17px;
     font-family: "Roboto";
     font-weight:bold;
     color: white;
+    padding: 0 15px 0 15px;
+
+}
+.contactBtn:hover {
+    cursor:pointer;
 }
 
 .empower {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100%;
-    /* min-width: 90%; */
     height:auto;
     display: flex;
     justify-content: center;
    
 }
 .empowerBox { 
-    border: 3px solid red;
+    border: 3px solid red; 
     display:flex;
     flex-direction:row;
     justify-content: center;
@@ -103,7 +106,7 @@ p {
     height:auto;  
 }
 .empowerTextcontainer{
-    border: 4px solid green;
+    /* border: 4px solid green; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,20 +115,21 @@ p {
     height: auto;
 }
 .empowertexts {
-    border: 4px solid yellow;
+    /* border: 4px solid yellow; */
     width: 100%;
     height: auto;
     align-self: flex-start;
 }
 .empowertexts h1 {
    color: #292e47;
-   font-size: 130px;
+   font-size: 5em;
+   
 }
 .empowertexts p {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 85%;
     font-weight: 400;
-    font-size: 43px;
+    font-size: 36px;
     line-height: 150%;
     color: #6B708D;
     margin-bottom: 3rem;
@@ -154,7 +158,6 @@ p {
     }
 
 .empowerImage {
-    border: 1px solid purple;
     position:relative;
     display: flex;
     justify-content: center;
@@ -190,8 +193,8 @@ p {
     align-items: center;
     flex-direction: row;
     width:100%;
-    height: 96px;
-    top: 1100px;
+    height:auto;
+    margin-top: 9%;
 }
 .brand-logo {
     -webkit-filter: grayscale(1);
@@ -202,7 +205,7 @@ p {
     
 }
 .recentProjects {
-    border: 1px solid black;
+   
     width: 100%;
     height:auto;
     display: flex;
@@ -210,14 +213,14 @@ p {
     margin-top: 5%;
 }
 .recenProjectsContainer {
-    border: 3px solid red;
+    
     display:flex;
     flex-direction:column;
     width: 82%;
     height:auto;  
 }
 .recentprojectsIn {
-    border: 3px solid blue;
+    border: 2px solid red;
     display:flex;
     flex-direction:row;
     justify-content: space-between;
@@ -225,37 +228,46 @@ p {
     height:auto;
 }
 .recentBoxes {
-    border: 3px solid green;
+    border: 3px solid black;
     width: 30%;
-    height:1000px;
+    height:auto;
     display: flex;
     flex-direction: column;
     color: #292E47;
     box-shadow: 20px grey;
-    
+}
+.recentboxestext {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    width:auto;
+    padding-left: 3%;
+
+   
 }
 .recentBoxes h5 {
-    margin-left: 7%;
+    /* margin-left: 7%; */
 }
 .learnmore{
-    margin-left: 7%;
-    margin-top: 15%;
+    /* margin-left: 7%;
+    margin-top: 15%; */
     color: #072ac8;
 
    
 }
 .vectorifyImage{
-    height: 543px;
+    max-height: 435px;
     
 
 }
 .margin7 {
-    margin-left: 7%;
+    /* margin-left: 7%; */
 }
 .hearbox{
-    border: 3px solid red;
+   
     width: 100%;
-    height: 700px;
+    height: auto;
     display: flex;
     justify-content: center;
     margin-top: 10%;
@@ -263,7 +275,7 @@ p {
 }
 
 .hear {
-    border: 3px solid green;
+    /* border: 3px solid green; */
     width: 85%;
     height: auto;
     display: flex;
@@ -274,12 +286,12 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
-    gap:50px;
+    /* gap:50px; */
 
 }
 
 .central {
-    border: 3px solid lightblue; 
+    /* border: 3px solid lightblue;  */
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -288,7 +300,7 @@ p {
 }
 
 .lateralizquierdo {
-    border: 3px solid purple;
+    /* border: 3px solid purple; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -296,7 +308,7 @@ p {
     position:relative;
 }
 .lateralderecho {
-    border: 3px solid purple;
+    /* border: 3px solid purple; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -307,7 +319,7 @@ p {
     height: 150px;
     width: 150px;
 }
-#emoji1 {
+/* #emoji1 {
     position:absolute;
     top:10px;
     right:500px;
@@ -326,7 +338,8 @@ p {
     position:absolute;
     bottom:10px;
     left: 500px;
-}
+} */
+
 .profile {
     height: 50px;
     width:50px;
@@ -383,7 +396,7 @@ p {
     padding-left: 1em;
 }
 .servicesSection{
-    border: 3px solid red;
+    /* border: 3px solid red; */
     margin-top: 10%;
     width: 100%;
     display: flex;
@@ -391,7 +404,7 @@ p {
 
 }
 .services{
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     width: 70%;
     height: auto;
 }
@@ -399,7 +412,7 @@ p {
     font-size: 40px;
 }
 .ourservices{
-    border: 3px solid green;
+    /* border: 3px solid green; */
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -462,7 +475,7 @@ p {
 
 .questionsBox{
     margin-top: 10%;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -471,7 +484,7 @@ p {
 }
 
 .questions {
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -585,44 +598,307 @@ footer li {
 
     color: #6B708D;
 }
-@media only screen and (max-width: 820px) {
 
-.contactBtn {
-    width: auto;
-    font-size: 20px;
+@media only screen and (min-width: 1024px) and (max-width: 1400px) {
+    body {
+        background-color: #ecf7ff;
+    }
+    .getInTouchBtn{
+        /* margin-bottom: 20px; */
+    }
+    .SeeOurWork{
+    align-self: flex-start;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .contactBtn {
+    
+    font-size: 20px;   
 }
 .logoCircle {
     width: auto;
 }
 .empowerBox {
-
-    max-width: 720px;
-    min-width: 700px;
-    margin: 0 auto 3rem auto;
-
+    width:90%;
+    
 }
 .empowertexts h1 {
     font-size: 50px;
 }
 .empowertexts p {
-    font-size: 25px;
+    font-size: 30px;
 }
 .empowerImage {
     border: 1px solid purple;
     position:relative;
     display: flex;
-    justify-content: center;
+    justify-content:center;
+    
+}
+}
+.getInTouchBtn{
+    align-self: center;
+    margin-bottom: 20px;
+    width: 70%;
+}
+.SeeOurWork{
+    align-self: center;
+}
+.recentBoxes {
     height: auto;
-    width: auto;
+    
+}
+.central {
+    width: 60%;
+}
+.hearbox {
+    height: auto;
+}
+.hear{
+    height: 500px;
+    margin-bottom: -10%;
+}
+.lateralizquierdo {
+    display: flex;
+    flex-direction: column;
+}
+.emojis{
+    width: 90px;
+    height: auto;
 }
 
+#emoji3 {
+    
+    position: initial;
+}
+#emoji4 {
+    position: initial;
+}
+#emoji1 {
+    position: initial;
+}
+#emoji2{
+    position: initial;
+}
+
+.ourservices h3 {
+    align-self: center;
+}
+.servicesSection {
+    height: auto;
+
+}
+.services{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ourservices {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+      justify-content:space-evenly;
+      gap: 30px;
+  }
+
+.service-container {
+    width: 100%;
+    align-self: center;
+}
+.icon-1{
+    align-self: center;
+}
+.icon-2{
+    align-self: center; 
+}
+.icon-3{
+    align-self: center; 
+}
+.icon-4{
+    align-self: center; 
+}
+.questions {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.questions h5 {
+    font-size: 50px;
+    align-self: center;
+   
+    text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
 
 
-@media only screen and (max-width: 390px) {
+    body {
+        /* margin: 0px 20px 0px 20px; */
+    }
+   
+    .contactBtn {
+        font-size: 20px;
+    }
+    .logoCircle {
+        width: auto;
+    }
+   
+    .empowerBox {
+        width: 90%;
+       display: flex;
+        flex-direction: column; 
+    
+    }
+    .empowerTextcontainer{
+        height: auto;
+        width:auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+   
+    .empowerTextcontainer h1 {
+        font-size: 60px;
+        align-self: center;
+    }
+    .empowerTextcontainer p {
+        font-size: 35px;
+        align-self: center;
+    }
+    .getInTouchBtn{
+        width: 40%;
+        align-self: center;
+        margin-bottom: 5%;
 
+    }
+    .empowerImage {
+        border: 1px solid purple;
+        position:relative;
+        display: flex;
+        justify-content: center;
+        height: auto;
+        width:auto;
+    }
+    
+    .recentProjects {
+        display: flex;
+        justify-content: center;
+    }
+    .recentprojectsIn {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-content: center;
+    }
+    .recentBoxes {
+        align-self: center;
+        width: 50%;
+        height: auto;
+        /* gap:10%; */
+    }
+   
+    .central {
+        width: 60%;
+    }
+    .hearbox {
+        height: auto;
+    }
+    .hear{
+        height: 500px;
+        margin-bottom: -10%;
+    }
+    .lateralizquierdo {
+        display: flex;
+        flex-direction: column;
+    }
+    .emojis{
+        width: 90px;
+        height: auto;
+    }
+    
+    #emoji3 {
+        
+        position: initial;
+    }
+    #emoji4 {
+        position: initial;
+    }
+    #emoji1 {
+        position: initial;
+    }
+    #emoji2{
+        position:initial;
+    }
+    .ourservices {
+        margin-top: 3%;
+    }
+    .ourservices h3 {
+        align-self: center;
+    }
+    .servicesSection {
+        height: auto;
+        padding-top: 4%;
 
-
-
+    
+    }
+    
+    .services{
+      height: auto;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    .ourservices {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        justify-content:space-evenly;
+        gap: 30px;
+       
+    }
+    .service-container {
+        width: 100%;
+        align-self: center;
+    }
+    .icon-1{
+        align-self: center;
+    }
+    .icon-2{
+        align-self: center; 
+    }
+    .icon-3{
+        align-self: center; 
+    }
+    .icon-4{
+        align-self: center; 
+    }
+    .questions {
+        height: 600px;
+        display: flex;
+        justify-content: center;
+    }
+    .questions h5 {
+        font-size: 35px;
+        align-self: center;
+       
+        text-align: center;
+    }
+    .formulario {
+        flex-direction: column;
+    }
+    footer{
+        max-width: 300px;
+    }
+    }
+   
 
 
 
@@ -645,23 +921,6 @@ footer li {
 
 
 }
-
-
-@media only screen and (max-width: 650px) {
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
 
 
 

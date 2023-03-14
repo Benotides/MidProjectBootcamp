@@ -15,18 +15,18 @@
 
 <body>
     <header class="navbar">
-        <img src="./contact-Us/images/circle.svg" class="logoCircle">
+        <img src="./contactUs/images/circle.svg" class="logoCircle">
             
             
         <div class="navigation">
             <a style="text-decoration: none;" href="./index.html">Home</a>
             <a style="text-decoration: none;" href="./project-page/projectPage.html">Projects</a>
-            <a style="text-decoration: none;" href="">Services</a>
-            <!-- falta poner el scroll para luego ubicar este boton -->
+            <a style="text-decoration: none;" href="#services">Services</a>
+           
 
         </div>
-        <button href="./contact-Us/ContactUs.html" class="contactBtn">Contact Us</button> 
-        <!-- falta un link y hay que agregar un link a un boton -->
+        <button onclick="window.location.href='./contactUs/ContactUs.html'" class="contactBtn">Contact Us</button> 
+       
         
     </header>
     
@@ -34,7 +34,7 @@
         <section class="empower">
             <div class="empowerBox">
                 <div class="empowerTextcontainer">
-                    <div class="empowertexts">
+                    <!-- <div class="empowertexts"> -->
                 
                     <h1>Empower Your Business With Stunning Design!</h1>
                     
@@ -43,7 +43,7 @@
                     <button class="getInTouchBtn">Get in touch</button>
     
                     <a class="SeeOurWork" href="">See our work</a>   
-                    </div>          
+                    <!-- </div>           -->
                 </div>
           
         
@@ -74,7 +74,7 @@
                 <img src="./images/logos/amazon-logo.svg" alt="Amazon">
             </div>
         </section>
-        <section class="recentProjects">
+        <section id="projectsection" class="recentProjects">
             <div class="recenProjectsContainer">
                 <h3>Recent projects</h3>
 
@@ -83,10 +83,11 @@
                     <div class="recentBoxes"> 
                         
                         <img src="./project-page/images/1.jpg">
+                        <div class="recentboxestext">
                         <h5>Simplify</h5>
                         <p class="margin7">UI Design & App Development</p>
                         <a class="learnmore" style="text-decoration: none;" href="">Learn more</a>    
-                        
+                        </div>
                     </div>
 
                     <div class="recentBoxes">
@@ -99,7 +100,7 @@
 
                     <div class="recentBoxes">
                        
-                        <img src="images/projects-section/3.jpg" class="vectorifyImage">
+                        <img src="images/projects-section/5.jpg">
                         <h5>Vectorify</h5>
                         <p class="margin7">User Experience Design</p>
                         <a class="learnmore" style="text-decoration: none;" href="">Learn more</a> 
@@ -134,7 +135,7 @@
          </div>
         </section>
 
-        <section class="servicesSection">
+        <section class="servicesSection" id="services">
             <div class="services">
                 <h3>Our services</h3>
                 <div class="ourservices">
@@ -184,7 +185,7 @@
     <footer>
          <div class="footercontainer1">
              <div class="footercontainer2">
-                        <img src="./contact-Us/images/circle.svg">
+                        <img src="./contactUs/images/circle.svg">
                         <p>2972 Westheimer Rd. Santa Ana,<br> Illinois 85486</p>
                         </div>
 
