@@ -1,11 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-    /* background-color: #f2f4fc; */
+    
     font-family: 'Roboto';
     font-style: normal;
     color: #292e47;
     
+    }
+    body {
+        background-color: #f2f4fc; 
     }
     h1{
         font-size: 60px;
@@ -44,7 +47,6 @@
         align-items: center;
         text-align: center;
         width: 100%;
-        height: 122px;
         left: calc(50% - 1440px/2);
         top: 0px;
     }
@@ -57,7 +59,6 @@
     .navigation {
         border: 1px solid black;
         width: 30%;
-        height: 5vh;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -73,11 +74,10 @@
     .contactBtn {   
         border: 1px solid black;
         width: 7.6%;
-        height: 4vh;
+        height: auto;
         background-color:#072AC8;
         font-size: 17px;
         font-family: "Roboto";
-        font-weight:bold;
         color: white;
     }
     .simplifycontainer {
@@ -102,7 +102,6 @@
     }
     .simplifybox img {
         width: 100%;
-        height: 900px;
         box-shadow: 0 0 10px 30px rgba(0, 0, 0, 0.1);
         margin-top: 3%;
     }
@@ -141,27 +140,31 @@
 .recentBoxes {
     border: 3px solid green;
     width: 30%;
-    height:980px;
     display: flex;
     flex-direction: column;
     color: #292E47;
     box-shadow: 0 0 10px 30px rgba(0, 0, 0, 0.1);
+    background-color: white;
     
 }
 .recentBoxes h5 {
     margin-left: 7%;
+    font-size: 40px;
+    background-color: white;
+}
+.recentBoxes p {
+    font-size: 25px;
+    background-color: white;
 }
 .learnmore{
     margin-left: 7%;
     margin-top: 15%;
     color: #072ac8;
-
-   
+    background-color: white;
 }
 .vectorifyImage{
-    height: 543px;
+    height: auto;
     
-
 }
 .margin7 {
     margin-left: 7%;
@@ -172,10 +175,9 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 700px;
+
 
 }
-
 .questions {
     border: 3px solid blue;
     display: flex;
@@ -221,7 +223,7 @@
     margin-right: 50px;
     margin-bottom: 15%;
     border: none;
-    height: 85px;
+  
 }
 .formulario input {
     
@@ -247,9 +249,9 @@
 footer {
     
     margin-top: 5%;
-    width: 100%;
+    width: 90%;
     display: flex;
-    justify-content:flex-start;
+    justify-content:center;
     margin-left: 30px;
     align-items: center;
 
@@ -257,7 +259,6 @@ footer {
 .footercontainer1 {
     
     width: 70%;
-    height: 330px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -267,7 +268,7 @@ footer {
     margin-bottom: 30px;
     display: flex;
     margin-top: 90px;
-S}
+}
 .footercontainer2 p {
     color: #6b708d;
     }
@@ -290,7 +291,141 @@ footer li {
 
     color: #6B708D;
 }
+@media only screen and (min-width: 1024px) and (max-width: 1400px) {
+    
+    .contactBtn {
+        width: 10%;
+    }
+    .logoCircle {
+        width: 10%;
+    }
+    .simplifybox h5 {
+        font-size: 20px;
+        margin-left:65%;
+    }
+    .simplifybox p {
+        font-size: 25px;
+    }
 
+
+    
+    .recentBoxes h5 {
+        font-size: 25px;
+    }
+    .recentBoxes p {
+        font-size: 15px;
+    }
+    .questions h5 {
+        font-size: 35px;
+    }
+    .footercontainer2 p {
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .logoCircle {
+        width: auto;
+    }
+    .navigation {
+        font-size: 15px;
+    }
+    .contactBtn {
+        font-size: 15px;
+    }
+
+    .simplifybox p {
+        margin-top: 3%;
+        font-size: 15px;
+    }
+    .recentBoxes {
+        height: auto;
+        width: 31%;
+    }
+    .recentboxestext h5 {
+        font-size: 20px;
+    }
+    .recentboxestext p{
+        font-size: 13px;
+    }
+    .questions {
+        height: 600px;
+        display: flex;
+        justify-content: center;
+    }
+    .questions h5 {
+        font-size: 30px;
+        align-self: center;
+       
+        text-align: center;
+    }
+    .inputbox{
+        font-size: 15px;
+    }
+    .footercontainer2 p {
+        font-size: 15px;
+    }
+    }
+
+
+
+@media only screen and (max-width: 767px) {
+    .contactBtn {
+        font-size: 15px;
+    }
+    .logoCircle {
+        width: auto;
+    }
+    .navigation {
+        font-size: 20px;
+    }
+    .recenProjectsContainer h3 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .recentProjects {
+        display: flex;
+        justify-content: center;
+    }
+    .recentprojectsIn {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-content:flex-start;
+    }
+    .recentBoxes {
+        align-self: center;
+        width: 50%;
+        height: auto;
+    
+    }
+    .questions {
+        height: 600px;
+        display: flex;
+        justify-content: center;
+    }
+    .questions h5 {
+        font-size: 35px;
+        align-self: center;
+       
+        text-align: center;
+    }
+    .formulario {
+        flex-direction: column;
+    }
+    footer{
+        max-width: 300px;
+    }
+    .footercontainer2 p {
+        font-size: 20px;
+    }
+}
 
 
 

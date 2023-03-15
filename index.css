@@ -9,9 +9,9 @@ body {
     background-color: #ecf7ff;
 }
 h1{
-    font-size: 60px;
+    font-size: 100px;
     font-weight: 700;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
     line-height: 130%;
 }
 h3 {
@@ -28,7 +28,7 @@ h5 {
 p {
     margin-top: 0px;
     margin-bottom: 10px;
-    font-size: 17px;
+    font-size: 30px;
     font-weight: 400;
     color: #6B708D;
 }
@@ -40,9 +40,10 @@ p {
     align-content: center;
     align-items: center;
     text-align: center;
+    align-self: center;
     width: 100%;
     height: 122px;
-    left: calc(50% - 1440px/2);
+    /* left: calc(50% - 1440px/2); */
     top: 0px;
   
 
@@ -61,7 +62,7 @@ p {
     justify-content: center;
     gap:10%;
     align-items: center;
-    font-size: 20px;
+    font-size: 30px;
     font-family: "Roboto";
     font-weight: 600;
     
@@ -75,7 +76,6 @@ p {
 }
 .contactBtn {   
     border: none;
-    /* width: 7.6%; */
     height: 5vh;
     background-color: #072AC8;
     font-size: 17px;
@@ -90,7 +90,6 @@ p {
 }
 
 .empower {
-    /* border: 1px solid black; */
     width: 100%;
     height:auto;
     display: flex;
@@ -98,63 +97,59 @@ p {
    
 }
 .empowerBox { 
-    border: 3px solid red; 
     display:flex;
     flex-direction:row;
     justify-content: center;
     width: 82%;
     height:auto;  
 }
-.empowerTextcontainer{
-    /* border: 4px solid green; */
+.empowerTextcontainer { 
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-flow: column;
     width: 50%;
     height: auto;
 }
-.empowertexts {
-    /* border: 4px solid yellow; */
-    width: 100%;
-    height: auto;
-    align-self: flex-start;
-}
+
 .empowertexts h1 {
    color: #292e47;
    font-size: 5em;
    
 }
-.empowertexts p {
-    /* border: 1px solid black; */
+.empowerTextcontainer p {
+   
     width: 85%;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 40px;
     line-height: 150%;
     color: #6B708D;
     margin-bottom: 3rem;
 }
-
+.empowerbuttons {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    text-align: center;
+    gap:25px;
+    
+}
 .getInTouchBtn {
-    padding: 15px 30px;
     background-color: #072ac8;
     font-size: 24px;
     color: white;
     border: 0;
     height: 79px;
-    width: 250px;
+    width: 30%;
+ 
     }
 
-.empowertexts a {
+.empowerTextcontainer a {
         text-decoration: none;
         font-size: 24px;
         font-weight: 500;
-        
-    }
-.SeeOurWork {
         color: #6B708D;
-        margin-left: 10%;
-        
+        align-self: center;
     }
 
 .empowerImage {
@@ -163,7 +158,6 @@ p {
     justify-content: center;
     height: auto;
     width: 50%;
-   
    
     }
  .empowerCard1{
@@ -186,7 +180,7 @@ p {
 
 }
 .empower-bottom {
-    border: 1px solid black;
+  
     display: flex;
     justify-content: space-evenly;
     justify-items: center;
@@ -207,7 +201,6 @@ p {
 .recentProjects {
    
     width: 100%;
-    height:auto;
     display: flex;
     justify-content: center;
     margin-top: 5%;
@@ -217,67 +210,57 @@ p {
     display:flex;
     flex-direction:column;
     width: 82%;
-    height:auto;  
+   
 }
 .recentprojectsIn {
-    border: 2px solid red;
     display:flex;
     flex-direction:row;
     justify-content: space-between;
     width: 100%;
-    height:auto;
+    
 }
 .recentBoxes {
-    border: 3px solid black;
+    
     width: 30%;
-    height:auto;
     display: flex;
     flex-direction: column;
     color: #292E47;
     box-shadow: 20px grey;
 }
-.recentboxestext {
-    border: 2px solid red;
+.recentboxestext {  
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
     width:auto;
     padding-left: 3%;
-
+    background-color: white;
    
 }
-.recentBoxes h5 {
-    /* margin-left: 7%; */
+.recentboxestext p {
+    font-size: 30px;
 }
+
 .learnmore{
-    /* margin-left: 7%;
-    margin-top: 15%; */
+    margin-bottom: 4%;
+    margin-top: 19%; 
     color: #072ac8;
-
-   
+    align-self:baseline;
 }
-.vectorifyImage{
-    max-height: 435px;
-    
 
-}
 .margin7 {
-    /* margin-left: 7%; */
+  margin-left: 7%; 
 }
 .hearbox{
    
     width: 100%;
-    height: auto;
     display: flex;
     justify-content: center;
     margin-top: 10%;
-
 }
-
 .hear {
-    /* border: 3px solid green; */
+   
     width: 85%;
-    height: auto;
+    height: 600px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -286,12 +269,8 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
-    /* gap:50px; */
-
 }
-
 .central {
-    /* border: 3px solid lightblue;  */
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -300,45 +279,28 @@ p {
 }
 
 .lateralizquierdo {
-    /* border: 3px solid purple; */
+  
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    position:relative;
+    position:relative; 
+    right: 300px;
+    
 }
 .lateralderecho {
-    /* border: 3px solid purple; */
+    
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     position:relative;
+    left: 300px;
 }
 .emojis {
     height: 150px;
     width: 150px;
 }
-/* #emoji1 {
-    position:absolute;
-    top:10px;
-    right:500px;
-}
-#emoji2 {
-    position:absolute;
-    right:500px;
-    bottom:10px;
-}
-#emoji3 {
-    position:absolute;
-    top:10px;
-    left: 500px;
-}
-#emoji4 {
-    position:absolute;
-    bottom:10px;
-    left: 500px;
-} */
 
 .profile {
     height: 50px;
@@ -396,7 +358,7 @@ p {
     padding-left: 1em;
 }
 .servicesSection{
-    /* border: 3px solid red; */
+
     margin-top: 10%;
     width: 100%;
     display: flex;
@@ -404,7 +366,7 @@ p {
 
 }
 .services{
-    /* border: 3px solid blue; */
+
     width: 70%;
     height: auto;
 }
@@ -412,7 +374,7 @@ p {
     font-size: 40px;
 }
 .ourservices{
-    /* border: 3px solid green; */
+
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -475,7 +437,6 @@ p {
 
 .questionsBox{
     margin-top: 10%;
-    /* border: 3px solid red; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -484,13 +445,12 @@ p {
 }
 
 .questions {
-    /* border: 3px solid blue; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #ffc600;
-    width: 90%;
+    width: 85%;
     height: 800px;
 }
 .questions h5 {
@@ -507,18 +467,13 @@ p {
     width: 100%;
     display: flex;
     justify-content: center;
-    
-    
-
 }
 .formulario {
   
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-
-    
+    align-items: center;  
 }
 .inputbox { 
     
@@ -575,9 +530,11 @@ footer {
     margin-bottom: 30px;
     display: flex;
     margin-top: 90px;
-S}
+}
+
 .footercontainer2 p {
     color: #6b708d;
+
     }
 
 .footercontainer3 {
@@ -603,51 +560,110 @@ footer li {
     body {
         background-color: #ecf7ff;
     }
-    .getInTouchBtn{
-        /* margin-bottom: 20px; */
-    }
     .SeeOurWork{
-    align-self: flex-start;
+        align-self: flex-start;
+        }
+    .empower h1  {
+        font-size:55px;
     }
+    .empower p {
+        font-size: 22px;
+    }
+    .recentboxestext h5 {
+        font-size: 25px;
+    }
+    .recentboxestext p {
+        font-size: 15px;
+    }
+    .lateralizquierdo {
+        left: -29px;
+        position:none;
+    }
+    .lateralderecho {
+        left: 29px;
+    }
+    .services {
+        width: 90%;
+    }
+    .ourservices {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    
+    .service-container {
+        width: auto;
+        
+    }
+    .service-container img {
+        align-self: center;
+    }
+    .questions h5 {
+        font-size: 55px;
+    }
+    .footercontainer2 p {
+        font-size: 20px;
+    }
+    
+   
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    .contactBtn {
+
+.contactBtn {
     
     font-size: 20px;   
 }
 .logoCircle {
     width: auto;
 }
+.navigation {
+    font-size: 15px;
+}
+.contactBtn {
+    font-size: 15px;
+}
+.empowerTextcontainer h1 {
+    font-size: 40px;
+}
+.empowerTextcontainer p {
+    font-size: 15px;
+}
+.empowerTextcontainer a {
+    font-size: 20px;
+}
 .empowerBox {
     width:90%;
     
 }
-.empowertexts h1 {
-    font-size: 50px;
-}
-.empowertexts p {
+h3 {
     font-size: 30px;
 }
 .empowerImage {
-    border: 1px solid purple;
     position:relative;
     display: flex;
     justify-content:center;
     
 }
-}
 .getInTouchBtn{
     align-self: center;
-    margin-bottom: 20px;
-    width: 70%;
+    width: 35%;
+    font-size: 20px;
+    height: 40px;
 }
 .SeeOurWork{
-    align-self: center;
+    align-self:center;
+    font-size: 20px;
 }
 .recentBoxes {
     height: auto;
-    
+    width: 31%;
+}
+.recentboxestext h5 {
+    font-size: 20px;
+}
+.recentboxestext p{
+    font-size: 13px;
 }
 .central {
     width: 60%;
@@ -660,26 +676,14 @@ footer li {
     margin-bottom: -10%;
 }
 .lateralizquierdo {
-    display: flex;
-    flex-direction: column;
+    right: 20px;
+}
+.lateralderecho {
+    left: 20px;
 }
 .emojis{
     width: 90px;
     height: auto;
-}
-
-#emoji3 {
-    
-    position: initial;
-}
-#emoji4 {
-    position: initial;
-}
-#emoji1 {
-    position: initial;
-}
-#emoji2{
-    position: initial;
 }
 
 .ourservices h3 {
@@ -727,24 +731,29 @@ footer li {
     justify-content: center;
 }
 .questions h5 {
-    font-size: 50px;
+    font-size: 30px;
     align-self: center;
    
     text-align: center;
 }
+.inputbox{
+    font-size: 15px;
+}
+.footercontainer2 p {
+    font-size: 15px;
+}
+}
 
 @media only screen and (max-width: 767px) {
 
-
-    body {
-        /* margin: 0px 20px 0px 20px; */
-    }
-   
     .contactBtn {
-        font-size: 20px;
+        font-size: 15px;
     }
     .logoCircle {
         width: auto;
+    }
+    .navigation {
+        font-size: 20px;
     }
    
     .empowerBox {
@@ -767,24 +776,32 @@ footer li {
         align-self: center;
     }
     .empowerTextcontainer p {
-        font-size: 35px;
+        font-size: 30px;
         align-self: center;
+    }
+    .empowerbuttons {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 6%;
     }
     .getInTouchBtn{
         width: 40%;
         align-self: center;
-        margin-bottom: 5%;
+        width: 25%;
 
     }
     .empowerImage {
-        border: 1px solid purple;
         position:relative;
         display: flex;
         justify-content: center;
         height: auto;
         width:auto;
     }
-    
+    .recenProjectsContainer h3 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
     .recentProjects {
         display: flex;
         justify-content: center;
@@ -794,18 +811,22 @@ footer li {
         flex-direction: column;
         gap: 30px;
         justify-content: center;
-        align-content: center;
+        align-content:flex-start;
     }
     .recentBoxes {
         align-self: center;
         width: 50%;
         height: auto;
-        /* gap:10%; */
+    
     }
    
     .central {
         width: 60%;
     }
+   .h3-central{
+    font-size: 35px;
+   } 
+
     .hearbox {
         height: auto;
     }
@@ -814,8 +835,10 @@ footer li {
         margin-bottom: -10%;
     }
     .lateralizquierdo {
-        display: flex;
-        flex-direction: column;
+            left: 10px;
+    }
+    .lateralderecho {
+            left: 20px;
     }
     .emojis{
         width: 90px;
@@ -897,29 +920,9 @@ footer li {
     footer{
         max-width: 300px;
     }
+    .footercontainer2 p {
+        font-size: 20px;
     }
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 
