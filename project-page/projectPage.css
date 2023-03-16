@@ -11,10 +11,8 @@
         background-color: #f2f4fc; 
     }
     h1{
-        font-size: 60px;
+        font-size: 80px;
         font-weight: 700;
-        letter-spacing: 2px;
-        line-height: 130%;
     }
     h3 {
         color: #292e47;
@@ -33,14 +31,10 @@
         
     }
     p {
-        margin-top: 0px;
-        margin-bottom: 10px;
-        font-size: 17px;
-        font-weight: 400;
         color: #6B708D;
     }
     .navbar {
-        border: 1px solid black;
+      
         display: flex;
         justify-content: space-around;
         align-content: center;
@@ -48,23 +42,25 @@
         text-align: center;
         width: 100%;
         left: calc(50% - 1440px/2);
-        top: 0px;
+        margin-top: 3%;
     }
     .logoCircle {
-        border: 1px solid black;
-        width: 5%;
+
+        width: 5%; 
         height: auto;
         padding: 0;
     }
     .navigation {
-        border: 1px solid black;
-        width: 30%;
+    
+        width: 60%;
+        height: 5vh;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+        gap:10%;
         align-items: center;
-        font-size: 20px;
+        font-size: 30px;
         font-family: "Roboto";
-        font-weight: 600;    
+        font-weight: 600;
     }
     .navigation a:hover {
         font-weight: bolder;
@@ -72,25 +68,29 @@
         
     }
     .contactBtn {   
-        border: 1px solid black;
-        width: 7.6%;
-        height: auto;
+
+        width: 6%;
+        height: 50px;
         background-color:#072AC8;
-        font-size: 17px;
+        font-size: 20px;
         font-family: "Roboto";
+        font-weight:bold;
         color: white;
+        border: none;
     }
     .simplifycontainer {
         margin-top: 5%;
-        border: 1px solid red;
+      
         width:100%;
+        height: auto;
         display: flex;
         justify-content: center;
 
     }
     .simplifybox {
-        border: 1px solid blue;
+     
         width: 80%;
+        height: auto;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -104,6 +104,7 @@
         width: 100%;
         box-shadow: 0 0 10px 30px rgba(0, 0, 0, 0.1);
         margin-top: 3%;
+        height: 900px;
     }
     .simplifybox p {
         margin-top: 3%;
@@ -111,7 +112,7 @@
     }
 
 .recentProjects {
-    border: 1px solid black;
+   
     width: 100%;
     height:auto;
     display: flex;
@@ -120,7 +121,7 @@
     
 }
 .recenProjectsContainer {
-    border: 3px solid red;
+  
     display:flex;
     flex-direction:column;
     width: 82%;
@@ -128,7 +129,7 @@
     
 }
 .recentprojectsIn {
-    border: 3px solid blue;
+   
     display:flex;
     flex-direction:row;
     justify-content: space-between;
@@ -138,7 +139,7 @@
 
 }
 .recentBoxes {
-    border: 3px solid green;
+  
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -171,22 +172,21 @@
 }
 .questionsBox{
     margin-top: 10%;
-    border: 3px solid red;
     width: 100%;
     display: flex;
     justify-content: center;
-
+    height: auto;
 
 }
+
 .questions {
-    border: 3px solid blue;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #ffc600;
-    width: 90%;
-    height: auto;
+    width: 85%;
+    height: 800px;
 }
 .questions h5 {
     font-size: 80px;
@@ -199,59 +199,57 @@
 }
 
 .questionstext {
+    
     width: 100%;
     display: flex;
     justify-content: center;
-    
-    
-
+    height: 15%;
 }
 .formulario {
   
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-
-    
+    text-align: center;
+    align-items:center;
+    gap:25px; 
 }
 .inputbox { 
     
     display: flex;
     justify-content:center;
     background-color: #ecf7ff;
-    margin-right: 50px;
-    margin-bottom: 15%;
     border: none;
+    height: 80%;
   
 }
 .formulario input {
     
     border: none;
     background-color: #ecf7ff;
-    font-size:25px;    
+    font-size:25px;   
 }
 .button {
-    font-size: 50px;
-    margin-bottom: 15%;
-    color: white;
-    align-self: center; */
+    display: flex;
+    justify-content:center;
+    background-color: #ecf7ff;
+    border: none;
+    height: 80%;
 }
 .button1 {
     background-color: #072AC8;
     border: none;
     color: white;
-    width: 120px;
-    height: 85px;
-    font-size: 20px;
+    font-size: 25px;
+    width: 200px;
 
 } 
 footer {
     
     margin-top: 5%;
-    width: 90%;
+    width: 100%;
     display: flex;
-    justify-content:center;
+    justify-content:flex-start;
     margin-left: 30px;
     align-items: center;
 
@@ -259,9 +257,11 @@ footer {
 .footercontainer1 {
     
     width: 70%;
+    height: 330px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-left: 5%;
 }
 .footercontainer2 img {
     width: 100px;
@@ -269,8 +269,10 @@ footer {
     display: flex;
     margin-top: 90px;
 }
+
 .footercontainer2 p {
     color: #6b708d;
+
     }
 
 .footercontainer3 {
@@ -294,23 +296,28 @@ footer li {
 @media only screen and (min-width: 1024px) and (max-width: 1400px) {
     
     .contactBtn {
-        width: 10%;
+        width: 15%;
     }
     .logoCircle {
         width: 10%;
+    }
+    h1 {
+        font-size: 40px;
     }
     .simplifybox h5 {
         font-size: 20px;
         margin-left:65%;
     }
     .simplifybox p {
-        font-size: 25px;
+        font-size:15px;
     }
-
+    .simplifybox img {
+    height: 400px;
+    }
 
     
     .recentBoxes h5 {
-        font-size: 25px;
+        font-size: 20px;
     }
     .recentBoxes p {
         font-size: 15px;
@@ -336,20 +343,28 @@ footer li {
     }
     .contactBtn {
         font-size: 15px;
+        width: 10%;
     }
 
     .simplifybox p {
         margin-top: 3%;
         font-size: 15px;
     }
+    .simplifybox img {
+        height: 300px;
+    }
+    .simplifybox h5 {
+        font-size: 15px;
+       
+    }
     .recentBoxes {
         height: auto;
         width: 31%;
     }
-    .recentboxestext h5 {
+    .recentBoxes h5 {
         font-size: 20px;
     }
-    .recentboxestext p{
+    .recentBoxes p{
         font-size: 13px;
     }
     .questions {
@@ -363,6 +378,9 @@ footer li {
        
         text-align: center;
     }
+    .button1 {
+        
+    }
     .inputbox{
         font-size: 15px;
     }
@@ -371,22 +389,49 @@ footer li {
     }
     }
 
-
-
-@media only screen and (max-width: 767px) {
+    @media only screen and (min-width: 600px) and (max-width: 767px) {
+    .navbar {
+        margin-top: 3%;
+    }
+    
     .contactBtn {
         font-size: 15px;
+        width: 15%;
+        height: 30px;
     }
     .logoCircle {
         width: auto;
     }
     .navigation {
         font-size: 20px;
+        gap:30px;
+    }
+    .simplifybox img {
+        height: auto;
+    }
+    .simplifybox p {
+        font-size: 18px;
+    }
+    .simplifybox h1 {
+        font-size:30px;
+    }
+    .simplifybox h4 {
+        font-size: 20px;
+    }
+    .simplifybox h5 {
+        font-size: 14px;
     }
     .recenProjectsContainer h3 {
         display: flex;
         flex-direction: column;
         text-align: center;
+        
+    }
+    .recenProjectsContainer h5 {
+        font-size: 25px;
+    }
+    .recenProjectsContainer p {
+        font-size: 20px;
     }
     .recentProjects {
         display: flex;
@@ -422,8 +467,17 @@ footer li {
     footer{
         max-width: 300px;
     }
+
+     
     .footercontainer2 p {
-        font-size: 20px;
+        font-size: 15px;
+       
+    }
+    footer li {
+        font-size: 10px;
+        list-style: none;
+        padding-right: 0.3px;
+        color: #6B708D;
     }
 }
 
