@@ -1,0 +1,990 @@
+* {
+margin: 0;
+padding: 0;
+font-family: 'Roboto';
+font-style: normal;
+color: #292e47;
+}
+body {
+    background-color: #ecf7ff;
+}
+h1{
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    line-height: 130%;
+}
+h3 {
+    color: #292e47;
+    font-size: 40px;
+    margin: 3rem 0;
+}
+h5 {
+    margin: 30px 0 20px 0;
+    font-size: 24px;
+    line-height: 115%;
+    font-weight: 500;
+}
+p {
+    
+    color: #6B708D;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    width: 100%;
+    height: 122px;
+    top: 0px;
+  
+
+}
+.logoCircle {
+
+    width: 5%; 
+    height: auto;
+    padding: 0;
+}
+.navigation {
+ 
+    width: 60%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    gap:10%;
+    align-items: center;
+    font-size: 30px;
+    font-family: "Roboto";
+    font-weight: 600;
+    
+    
+}
+.navigation a:hover {
+    font-weight: bolder;
+    color: #072AC8;
+    
+
+}
+.contactBtn {   
+
+        width: 6%;
+        height: 50px;
+        background-color:#072AC8;
+        font-size: 20px;
+        font-family: "Roboto";
+        font-weight:bold;
+        color: white;
+        border: none;
+    }
+
+
+.contactBtn:hover {
+    cursor:pointer;
+}
+
+.empower {
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+   
+}
+.empowerBox { 
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    width: 82%;
+    height:auto;  
+}
+.empowerTextcontainer { 
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    width: 50%;
+    height: auto;
+}
+
+.empowerTextcontainer h1 {
+   color: #292e47;
+   font-size: 120px;
+   
+}
+.empowerTextcontainer p {
+   
+    width: 85%;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 150%;
+    color: #6B708D;
+    margin-bottom: 3rem;
+}
+.empowerbuttons {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    text-align: center;
+    gap:25px;
+    
+}
+.getInTouchBtn {
+    background-color: #072ac8;
+    font-size: 24px;
+    color: white;
+    border: 0;
+    height: 79px;
+    width: 20%;
+
+    }
+
+.empowerTextcontainer a {
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: 500;
+        color: #6B708D;
+        align-self: center;
+    }
+
+.empowerImage {
+    position:relative;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 50%;
+   
+    }
+ .empowerCard1{
+    position: absolute;
+    left: 5%;  
+    width:25%;
+    top: 5%;
+    }
+ 
+ .empowerImage-img {
+    position:relative;
+    width: 100%;
+    height: auto;
+    }
+.empowerCard2 {
+    position:absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 25%;
+
+}
+.empower-bottom {
+  
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    flex-direction: row;
+    width:100%;
+    height:auto;
+    margin-top: 9%;
+}
+.brand-logo {
+    -webkit-filter: grayscale(1);
+
+}
+.brand-logo:hover {
+    -webkit-filter: grayscale(0);
+    
+}
+.recentProjects {
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.recenProjectsContainer {
+    
+    display:flex;
+    flex-direction:column;
+    width: 82%;
+   
+}
+.recentprojectsIn {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.recentBoxes {
+    
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    color: #292E47;
+    box-shadow: 20px grey;
+}
+.recentboxestext {  
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    width:auto;
+    padding-left: 3%;
+    background-color: white;
+   
+}
+.recentboxestext p {
+    font-size: 30px;
+}
+
+.learnmore{
+    margin-bottom: 4%;
+    margin-top: 19%; 
+    color: #072ac8;
+    align-self:baseline;
+}
+
+.margin7 {
+  margin-left: 7%; 
+}
+.hearbox{
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.hear {
+   
+    width: 85%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #292e47;
+    background-image: url("/images/testimonial-section/orbit.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.central {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lateralizquierdo {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position:relative; 
+    right: 300px;
+    
+}
+.lateralderecho {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position:relative;
+    left: 300px;
+}
+.emojis {
+    height: 150px;
+    width: 150px;
+}
+
+.profile {
+    height: 50px;
+    width:50px;
+    border-radius: 50px;
+    background-image: url("/images/testimonial-section/profile.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.hear-name {
+    color: #a2d6f9; 
+    font-size: 17px;
+    margin:0;
+    padding:0;
+}
+
+.hear-web {
+    color: #ecf7ff; 
+    font-size: 13px;
+    margin:0;
+    padding:0;
+}
+
+.h3-central { 
+    max-width: 700px;
+    color: white;  
+    font-size: 40px; 
+    text-align: center;
+}
+
+.h4-central { 
+    max-width: 560px;
+    color: #ffc600; 
+    font-size: 24px; 
+    font-weight: 500;
+    text-align: center;
+}
+
+.perfil-central {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.perfil-central div {
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 1em;
+}
+.servicesSection{
+
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+
+}
+.services{
+
+    width: 70%;
+    height: auto;
+}
+.services h5{
+    font-size: 40px;
+}
+.ourservices{
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.service-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: flex-start;
+    background-color: white;
+    box-shadow: 0px 39px 78px rgba(0, 0, 0, 0.1);
+    width: 23%;
+    padding: 1rem;
+    height: 700px;
+}
+.service-container p {
+    color: #6B708D;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 150%;
+}
+.service-container a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #072AC8;
+    margin-top: 9%;
+}
+.icon-1{
+    width: 150px;
+    height: 150px;
+    background-image: url("/images/services-section/icons/1.svg");
+    background-color: rgb(236, 247, 255);
+    background-position: 50% 50%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.icon-2{
+    width: 150px;
+    height: 150px;
+    background-image: url("/images/services-section/icons/2.svg");
+    background-color: rgb(236, 247, 255);
+    background-position: 50% 50%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.icon-3{
+    width: 150px;
+    height: 150px;
+    background-image: url("/images/services-section/icons/3.svg");
+    background-color: rgb(236, 247, 255);
+    background-position: 50% 50%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.questionsBox{
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc600;
+    width: 85%;
+    height: 800px;
+}
+.questions h5 {
+    font-size: 80px;
+
+}
+.questions p {
+  font-size: 30px;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.questionstext {
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 15%;
+}
+.formulario {
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items:center;
+    gap:25px;
+    
+}
+.inputbox {   
+    
+    display: flex;
+    justify-content:center;
+    background-color: #ecf7ff;
+    border: none;
+    height: 80%;
+    
+}
+.formulario input {
+    
+    border: none;
+    background-color: #ecf7ff;
+    font-size:25px;    
+}
+.button {
+    display: flex;
+    justify-content:center;
+    background-color: #ecf7ff;
+    border: none;
+    height: 80%;
+
+}
+.button1 {
+
+    background-color: #072AC8;
+    border: none;
+    color: white;
+    font-size: 25px;
+    width: 200px;
+
+} 
+footer {
+    
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 30px;
+    align-items: center;
+
+}
+.footercontainer1 {
+    
+    width: 70%;
+    height: 330px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+.footercontainer2 img {
+    width: 100px;
+    margin-bottom: 30px;
+    display: flex;
+    margin-top: 90px;
+}
+
+.footercontainer2 p {
+    color: #6b708d;
+
+    }
+
+.footercontainer3 {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.footercontainer3 ul {
+    display: flex;
+    flex-direction: row;
+   
+}
+footer li {
+    font-size: 17px;
+    list-style: none;
+    padding:  4rem;
+
+    color: #6B708D;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1400px) {
+    body {
+        background-color: #ecf7ff;
+    }
+    .contactBtn {
+        width: 10%;
+    }
+    .SeeOurWork{
+        align-self: flex-start;
+        }
+    .empower h1  {
+        font-size:55px;
+    }
+    .empower p {
+        font-size: 22px;
+    }
+    .recentboxestext h5 {
+        font-size: 25px;
+    }
+    .recentboxestext p {
+        font-size: 15px;
+    }
+    .lateralizquierdo {
+        left: -29px;
+        position:none;
+    }
+    .lateralderecho {
+        left: 29px;
+    }
+    .services {
+        width: 90%;
+    }
+    .ourservices {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    
+    .service-container {
+        width: auto;
+        
+    }
+    .service-container img {
+        align-self: center;
+    }
+    .questions h5 {
+        font-size: 55px;
+    }
+    .footercontainer2 p {
+        font-size: 20px;
+    }
+    
+   
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+.contactBtn {
+    width: 10%;
+    font-size: 20px;   
+}
+.logoCircle {
+    width: auto;
+}
+.navigation {
+    font-size: 15px;
+}
+.contactBtn {
+    font-size: 15px;
+}
+.empowerTextcontainer h1 {
+    font-size: 55px;
+}
+.empowerTextcontainer p {
+    font-size: 15px;
+}
+.empowerTextcontainer a {
+    font-size: 20px;
+}
+.empowerBox {
+    width:90%;
+    
+}
+h3 {
+    font-size: 30px;
+}
+.empowerImage {
+    position:relative;
+    display: flex;
+    justify-content:center;
+    
+}
+.getInTouchBtn{
+    align-self: center;
+    width: 40%;
+    font-size: 20px;
+    height: 40px;
+}
+.SeeOurWork{
+    align-self:center;
+    font-size: 20px;
+}
+.recentBoxes {
+    height: auto;
+    width: 31%;
+}
+.recentboxestext h5 {
+    font-size: 20px;
+}
+.recentboxestext p{
+    font-size: 13px;
+}
+.central {
+    width: 60%;
+}
+.hearbox {
+    height: auto;
+}
+.hear{
+    height: 500px;
+    margin-bottom: -10%;
+}
+.lateralizquierdo {
+    right: 20px;
+}
+.lateralderecho {
+    left: 20px;
+}
+.emojis{
+    width: 90px;
+    height: auto;
+}
+
+.ourservices h3 {
+    align-self: center;
+}
+.servicesSection {
+    height: auto;
+
+}
+.services{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ourservices {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+      justify-content:space-evenly;
+      gap: 30px;
+  }
+
+.service-container {
+    width: 100%;
+    align-self: center;
+}
+.icon-1{
+    align-self: center;
+}
+.icon-2{
+    align-self: center; 
+}
+.icon-3{
+    align-self: center; 
+}
+.icon-4{
+    align-self: center; 
+}
+.questions {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.questions h5 {
+    font-size: 30px;
+    align-self: center;
+   
+    text-align: center;
+}
+.inputbox{
+    font-size: 15px;
+}
+.footercontainer2 p {
+    font-size: 15px;
+}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+    .contactBtn {
+        width: 17%;
+        font-size: 20px;   
+    }
+    .logoCircle {
+        width: auto;
+    }
+    .navigation {
+        font-size: 20px;
+    }
+    .empowerBox {
+        width: 90%;
+       display: flex;
+        flex-direction: column; 
+    
+    }
+    .empowerTextcontainer{
+        height: auto;
+        width:auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+   
+    .empowerTextcontainer h1 {
+        font-size: 60px;
+        align-self: center;
+    }
+    .empowerTextcontainer p {
+        font-size: 30px;
+        align-self: center;
+    }
+    .empowerbuttons {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 6%;
+    }
+    .getInTouchBtn{
+        width: 40%;
+        align-self: center;
+        width: 25%;
+
+    }
+    .empowerImage {
+        position:relative;
+        display: flex;
+        justify-content: center;
+        height: auto;
+        width:auto;
+    }
+    .recenProjectsContainer h3 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .recentProjects {
+        display: flex;
+        justify-content: center;
+    }
+    .recentprojectsIn {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-content:flex-start;
+    }
+    .recentBoxes {
+        align-self: center;
+        width: 50%;
+        height: auto;
+
+    }
+    .recentboxestext p {
+        font-size: 15px;
+    }
+    .service-container p {
+        font-size: 25px;
+    }
+    .service-container {
+        display: flex;
+        text-align: center;
+    }
+   
+    .central {
+        width: 60%;
+    }
+   .h3-central{
+    font-size: 35px;
+   } 
+
+    .hearbox {
+        height: auto;
+    }
+    .hear{
+        height: 500px;
+        margin-bottom: -10%;
+    }
+    .lateralizquierdo {
+            left: 10px;
+    }
+    .lateralderecho {
+            left: 20px;
+    }
+    .emojis{
+        width: 90px;
+        height: auto;
+    }
+    
+    #emoji3 {
+        
+        position: initial;
+    }
+    #emoji4 {
+        position: initial;
+    }
+    #emoji1 {
+        position: initial;
+    }
+    #emoji2{
+        position:initial;
+    }
+    .ourservices {
+        margin-top: 3%;
+    }
+    .ourservices h3 {
+        align-self: center;
+    }
+    .servicesSection {
+        height: auto;
+        padding-top: 4%;
+
+
+    }
+    
+    .services{
+      height: auto;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    .ourservices {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        justify-content:space-evenly;
+        gap: 30px;
+       
+    }
+    .service-container {
+        width: 100%;
+        align-self: center;
+    }
+    .icon-1{
+        align-self: center;
+    }
+    .icon-2{
+        align-self: center; 
+    }
+    .icon-3{
+        align-self: center; 
+    }
+    .icon-4{
+        align-self: center; 
+    }
+    .questions {
+        height: 600px;
+        display: flex;
+        justify-content: center;
+    }
+    .questions h5 {
+        font-size: 35px;
+        align-self: center;
+       
+        text-align: center;
+    }
+    .formulario {
+        flex-direction: column;
+    }
+
+    .footercontainer1 {
+        width: 30%;
+    }
+    
+    .footercontainer2 p {
+        font-size: 15px;
+       
+    }
+    footer li {
+        font-size: 10px;
+        list-style: none;
+        padding-right: 0.3px;
+        color: #6B708D;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
