@@ -35,31 +35,30 @@
         <di id="formulario-contacto">
             <h1>Contact Us</h1>
 
-            <form action="">
+            <form id="miFormulario" action="submit-formulario.php" method="post">
 
                 <div class="label-input">
                     <label class="label" for="name">Full Name*</label>
-                    <input class="input" name="name" type="text" placeholder="Enter your full name">
+                    <input class="input" id="nombre"name="name" type="text" placeholder="Enter your full name" required>
                 </div>
+
                 <div class="mail-phone">
                     <div class= "label-input mail">
                         <label class="label" for="name">Email</label>
-                        <input class="input" name="name" type="text" placeholder="Enter your email address">
+                        <input class="input" name="email" type="text" id="email"placeholder="Enter your email address" required>
                     </div>
+
                     <div class="label-input phone">
                         <label class="label" for="name">Phone</label>
-                        <input class="input" name="name" type="text" placeholder="Enter your phone number">
+                        <input class="input" id="telefono" name="phone" type="text" placeholder="Enter your phone number" required>
                     </div>
                 
                 </div>
                 <div class="label-input">
-                    <label class="label" for="name">Message</label>
-                    <textarea class="input-text" name="message" rows="10>">Write your message here...</textarea>
+                    <label class="label" for="mensaje">Message</label>
+                    <textarea class="input-text" id="mensaje" name="mensaje"  rows="10" required>Write your message here...</textarea>
                 </div>
-                <button class="button-contact" type="submit">Submit</button>
-
-
-            
+                <button class="button-contact" type="submit">Submit</button>  
             </form>
             <div class="error-message">           
             </div>
