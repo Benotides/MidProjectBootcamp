@@ -67,8 +67,8 @@ p {
     font-weight: bolder;
     color: #072AC8;
     
-
 }
+
 .contactBtn {   
 
         width: 6%;
@@ -79,13 +79,17 @@ p {
         font-weight:bold;
         color: white;
         border: none;
-    }
-
-
+}
 .contactBtn:hover {
     cursor:pointer;
 }
+.hamburger {
+    display: none;
+}
 
+.hamburger-menu{
+    display: none;
+}
 .empower {
     width: 100%;
     height:auto;
@@ -558,6 +562,36 @@ footer li {
 
     color: #6B708D;
 }
+
+@media only screen and (min-width: 1401px) and (max-width: 1700px) {
+    
+
+    .contactBtn {
+        width: 12%;
+    }
+    .SeeOurWork{
+        align-self: flex-start;
+        }
+    .empower h1  {
+        font-size:75px;
+    }
+    .empower p {
+        font-size: 22px;
+    }
+    .recentboxestext h5 {
+        font-size: 25px;
+    }
+    .recentboxestext p {
+        font-size: 15px;
+    }
+    .questions {
+        height: 500px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
 
 @media only screen and (min-width: 1024px) and (max-width: 1400px) {
     body {
