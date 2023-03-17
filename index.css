@@ -1082,33 +1082,20 @@ h3 {
         height: auto;
     }
     .hear{
-        height: 500px;
+        height: 600px;
         margin-bottom: -10%;
     }
     .lateralizquierdo {
             left: 10px;
     }
     .lateralderecho {
-            left: 20px;
+            left: 5px;
     }
     .emojis{
         width: 90px;
         height: auto;
     }
     
-    #emoji3 {
-        
-        position: initial;
-    }
-    #emoji4 {
-        position: initial;
-    }
-    #emoji1 {
-        position: initial;
-    }
-    #emoji2{
-        position:initial;
-    }
     .ourservices {
         margin-top: 3%;
     }
@@ -1155,14 +1142,14 @@ h3 {
         align-self: center; 
     }
     .questions {
-        height: 600px;
+        height: 400px;
         display: flex;
         justify-content: center;
+        text-align: center;
     }
     .questions h5 {
         font-size: 25px;
         align-self: center;
-       
         text-align: center;
     }
     .formulario {
@@ -1178,11 +1165,12 @@ h3 {
        
     }
     footer li {
-        font-size: 10px;
+        font-size: 9px;
         list-style: none;
-        padding-right: 0.3px;
+        padding-right: 0.1px;
         color: #6B708D;
     }
+    
     
 }
 
