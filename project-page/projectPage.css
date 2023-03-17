@@ -69,7 +69,7 @@
     }
     .contactBtn {   
 
-        width: 6%;
+        width: 8%;
         height: 50px;
         background-color:#072AC8;
         font-size: 20px;
@@ -296,7 +296,7 @@ footer li {
 @media only screen and (min-width: 1024px) and (max-width: 1400px) {
     
     .contactBtn {
-        width: 15%;
+        width: 13%;
     }
     .logoCircle {
         width: 10%;
