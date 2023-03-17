@@ -252,6 +252,45 @@
         color: #6B708D;
     }
     }
+    @media only screen and (min-width: 400px) and (max-width: 599px) {
+
+        .contactBtn {
+            width: 17%;
+            font-size: 15px;   
+        }
+        .empower-bottom {
+            display: flex;
+            flex-direction: column;
+            gap:20px;
+        }
+        h1 {
+            font-size: 40px;
+        }
+    
+        .logoCircle {
+            width: auto;
+        }
+        .navigation {
+            font-size: 15px;
+        }
+        
+    
+        .footercontainer1 {
+            width: 30%;
+        }
+        
+        .footercontainer2 p {
+            font-size: 10px;
+           
+        }
+        footer li {
+            font-size: 10px;
+            list-style: none;
+            padding-right: 0.3px;
+            color: #6B708D;
+        }
+        
+    }
     
     
     

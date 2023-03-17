@@ -481,6 +481,113 @@ footer li {
     }
 }
 
+@media only screen and (min-width: 400px) and (max-width: 599px) {
+
+    .contactBtn {
+        width: 17%;
+        font-size: 15px;   
+    }
+    .empower-bottom {
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+
+    .logoCircle {
+        width: auto;
+    }
+    .navigation {
+        font-size: 15px;
+    }
+    .simplifybox img {
+        height: auto;
+    }
+    .simplifybox p {
+        font-size: 10px;
+    }
+    .simplifybox h1 {
+        font-size:20px;
+    }
+    .simplifybox h4 {
+        font-size: 10px;
+    }
+    .simplifybox h5 {
+        font-size: 10px;
+    }
+    .recenProjectsContainer h3 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .recenProjectsContainer h5 {
+        font-size: 25px;
+    }
+    .recenProjectsContainer p {
+        font-size: 20px;
+    }
+    .recentProjects {
+        display: flex;
+        justify-content: center;
+    }
+    .recentprojectsIn {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-content:flex-start;
+    }
+    .recentBoxes {
+        align-self: center;
+        width: 50%;
+        height: auto;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .questions {
+        height: 600px;
+        display: flex;
+        justify-content: center;
+    }
+    .questions h5 {
+        font-size: 25px;
+        align-self: center;
+       
+        text-align: center;
+    }
+    .formulario {
+        flex-direction: column;
+    }
+
+    .footercontainer1 {
+        width: 30%;
+    }
+    
+    .footercontainer2 p {
+        font-size: 10px;
+       
+    }
+    footer li {
+        font-size: 10px;
+        list-style: none;
+        padding-right: 0.3px;
+        color: #6B708D;
+    }
+    
+}
+
+
+
 
 
 
