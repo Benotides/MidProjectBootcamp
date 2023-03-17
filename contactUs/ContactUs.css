@@ -252,7 +252,7 @@
         color: #6B708D;
     }
     }
-    @media only screen and (min-width: 400px) and (max-width: 599px) {
+    @media only screen  and (max-width: 599px) {
 
         .contactBtn {
             width: 17%;
